@@ -221,7 +221,7 @@ It governs collapse — not magnitude.
 - [STL Conformance Specification](docs/STL-Conformance-Specification.md)  
 - [Collapse Topology Diagram](docs/STL_Collapse_Topology_Diagram.png)  
 - [Full Specification (PDF)](docs/STL_v2.0.pdf)  
-- [Concept Flyer (PDF)](docs/Concept-Flyer_STL_v2.0.pdf)
+- [Concept Flyer (High-Level Overview PDF)](docs/Concept-Flyer_STL_v2.0.pdf)
 
 ---
 
