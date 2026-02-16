@@ -1,0 +1,156 @@
+Open Standard License — STL
+
+Shunyaya True Logic (STL)
+
+
+Permission
+
+Permission is hereby granted, free of charge, to any person or organization to use, implement, reproduce, publish, distribute, reference, extend, or incorporate this Standard, in whole or in part, without restriction.
+
+This permission applies to both commercial and non-commercial use.
+
+No registration required.
+No fees required.
+No approval required.
+
+
+No Restrictions
+
+This Open Standard imposes no legal, technical, or commercial restrictions on use or implementation.
+
+Attribution is not required.
+
+No endorsement or certification is implied.
+
+No runtime obligations apply.
+
+No implementation approval is required.
+
+Correctness and conformity are governed by structural behavior and deterministic replay, not by licensing terms.
+
+
+Recommended Attribution (Optional)
+
+Attribution is recommended but not required.
+
+If provided, the preferred form is:
+
+Implements Shunyaya True Logic (STL).
+
+Attribution must not imply endorsement by the authors or the Shunyaya framework.
+
+Use of the name “Shunyaya True Logic (STL)” must not imply:
+
+• endorsement
+• certification
+• official compliance approval
+• governance authority
+• authorship by the original authors
+
+
+Scope of the Standard
+
+Shunyaya True Logic (STL) defines a deterministic structural collapse-governance layer over classical Boolean evaluation.
+
+STL establishes:
+
+Finite structural truth space:
+
+T5 = {Z0, Eplus, S, Eminus, Zstar}
+
+Deterministic structural operators:
+
+NOT_s
+AND_s
+OR_s
+
+Collapse mapping:
+
+phi_T(S) = TRUE
+phi_T(Zstar) = FALSE
+phi_T(Z0) = UNDEFINED
+phi_T(Eplus) = UNDEFINED
+phi_T(Eminus) = UNDEFINED
+
+Replay-verifiable determinism
+
+Structural admissibility discipline
+
+STL does not:
+
+modify Boolean logic
+modify domain equations
+introduce predictive models
+simulate system dynamics
+perform optimization
+guarantee safety outcomes
+
+STL governs collapse admissibility, not causation.
+
+
+Conformance
+
+An implementation conforms to the STL Open Standard if it:
+
+Preserves Boolean logic under collapse:
+
+For stable endpoints:
+
+phi_T(op_s(A,B)) = op_bool(phi_T(A), phi_T(B))
+when A,B in {S, Zstar}
+
+Produces deterministic classification over T5.
+
+Defines structural operators closed over T5.
+
+Produces byte-identical artifacts under independent replay:
+
+B_A = B_B
+
+Avoids probabilistic or tolerance-based arbitration.
+
+Any implementation introducing:
+
+randomness
+probabilistic inference
+adaptive tuning
+tolerance-based collapse
+nondeterministic output
+
+does not conform to the STL Open Standard.
+
+Independent implementations are permitted and encouraged.
+
+
+Relationship to Other Licenses
+
+This Open Standard applies only to the STL specification and normative structural definitions.
+
+Reference implementations, adapters, tooling, or example scripts may be released under separate licenses if explicitly stated.
+
+Implementation licensing does not alter structural conformance requirements of this Standard.
+
+Nothing in this Standard grants trademark rights.
+
+
+Responsibility
+
+Use of STL in operational, governance, infrastructure, AI, or safety-critical contexts is undertaken entirely at the user’s own responsibility.
+
+STL provides structural collapse admissibility discipline and deterministic replay guarantees under declared scope.
+
+It does not provide operational authority, certification, or safety guarantees.
+
+
+No Warranty
+
+THE STANDARD IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE USE OF THIS STANDARD.
+
+
+Closing Statement
+
+Shunyaya True Logic (STL) is published as an Open Standard to maximize interoperability, independent verification, and deterministic correctness.
+
+It is governed by structure — not by permission.
