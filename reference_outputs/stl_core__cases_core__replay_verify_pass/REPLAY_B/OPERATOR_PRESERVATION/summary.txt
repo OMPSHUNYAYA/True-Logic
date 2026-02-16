@@ -1,0 +1,6 @@
+STL OPERATOR PRESERVATION v1.3
+Domain: stable endpoint homomorphism check
+Stable set: {S, Zstar}
+Total checks: 10
+FAIL count: 0
+All checks: PASS

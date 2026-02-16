@@ -1,0 +1,2 @@
+event_index,event_type,t_bool,bool_after,stl_at_t_bool,t_stl,delta,premature_boolean,aligned
+1,enter_true,24,TRUE,,47,23,YES,NO

@@ -1,0 +1,4 @@
+Negative Control Trace (Debounced Boolean Alignment)
+Deterministic dominance trace for STL negative control.
+rows=85 dt=1
+shape=stable_low -> ramp_up -> stable_high -> ramp_down -> stable_low

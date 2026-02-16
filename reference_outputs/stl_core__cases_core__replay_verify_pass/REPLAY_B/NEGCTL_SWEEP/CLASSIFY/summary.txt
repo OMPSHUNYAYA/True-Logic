@@ -1,0 +1,9 @@
+STL_T5_CLASSIFIER
+in_csv=negctl_debounced_trace_v1_0.csv
+W=20
+tau_s=0.90
+tau_l=0.10
+eps=0.02
+rows_in=85
+rows_out=85
+OK

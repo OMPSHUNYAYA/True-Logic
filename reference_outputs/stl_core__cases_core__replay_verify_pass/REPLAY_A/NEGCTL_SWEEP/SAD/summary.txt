@@ -1,0 +1,27 @@
+SAD(P) REPORT (Audit-Grade)
+----------------------------------------
+dataset_name: NEGCTL_SYNTH
+adapter_name: stl_make_negctl_debounced_trace_v1_0
+proposition_P: NEGCTL_T5_CLASSIFICATION
+naive_boolean_rule: raw_threshold_crossing
+bool_mode: ge
+threshold_on_d_t: 0.5
+event_counting_mode: enter_true
+
+parameters:
+  W=20 tau_s=0.9 tau_l=0.1 eps=0.02
+
+event accounting:
+  E_total=1
+  E_premature=1
+  E_aligned=0
+  SAD(P)=1.000000
+
+definition (Appendix G/I):
+  SAD(P) = E_premature / E_total
+
+notes:
+  - A 'threshold event' is a naive Boolean state change at time t_bool.
+  - premature_boolean=YES means STL does NOT collapse to the new Boolean truth at t_bool.
+  - timing table reports when STL eventually collapses (t_stl) and delta=t_stl - t_bool.
+  - if STL never collapses to that Boolean truth, t_stl is blank and the event is still premature.

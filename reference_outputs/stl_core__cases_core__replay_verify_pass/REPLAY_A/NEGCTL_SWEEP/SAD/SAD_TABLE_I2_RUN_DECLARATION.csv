@@ -1,0 +1,15 @@
+field,value
+dataset_name,NEGCTL_SYNTH
+dataset_source,STL_NEGATIVE_CONTROL
+adapter_name,stl_make_negctl_debounced_trace_v1_0
+proposition_P,NEGCTL_T5_CLASSIFICATION
+naive_boolean_rule,raw_threshold_crossing
+parameters_W,20
+parameters_tau_s,0.9
+parameters_tau_l,0.1
+parameters_eps,0.02
+bool_mode,ge
+threshold_on_d_t,0.5
+event_counting_mode,enter_true
+adapter_csv,negctl_debounced_trace_v1_0.csv
+trace_csv,stl_trace_out.csv
