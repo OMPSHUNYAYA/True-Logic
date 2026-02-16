@@ -1,0 +1,15 @@
+STL CORE CASESET REPLAY MANIFEST HASH
+Profile: public
+Caseset: core
+
+Expected SHA256 (REPLAY_A MANIFEST.sha256):
+ca3c6579c0198656d6073e9dc9ce6cf6c953bf316fc17408c78c13db43e0cb44
+
+Verification Rule:
+B_A = B_B
+and
+SHA256(MANIFEST.sha256) must match the expected hash above.
+
+No tolerance.
+No partial acceptance.
+Byte identity required.
