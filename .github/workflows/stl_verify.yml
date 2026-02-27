@@ -18,4 +18,6 @@ jobs:
           python-version: "3.11"
 
       - name: Run STL capsule verification (core)
-        run: bash VERIFY_STL_CAPSULE/RUN_VERIFY.sh
+        run: |
+          python -c "p='VERIFY_STL_CAPSULE/RUN_VERIFY.sh'; import pathlib; t=pathlib.Path(p).read_bytes().replace(b'\r\n', b'\n'); pathlib.Path(p).write_bytes(t)"
+          bash VERIFY_STL_CAPSULE/RUN_VERIFY.sh
