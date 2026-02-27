@@ -4,6 +4,8 @@
 
 ---
 
+![STL Verify (Core Capsule)](https://github.com/OMPSHUNYAYA/True-Logic/actions/workflows/stl_verify.yml/badge.svg)
+
 ![STL](https://img.shields.io/badge/STL-Structural%20Collapse%20Logic-blue)
 ![Deterministic](https://img.shields.io/badge/Deterministic-Yes-green)
 ![Replay--Verified](https://img.shields.io/badge/Replay--Verified-B_A%20%3D%20B_B-green)
